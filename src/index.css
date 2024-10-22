@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Semibold";
+    src: local("GeneralSans-Semibold"), url("./assets/OTF/GeneralSans-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local("GeneralSans-Bold"), url("./assets/OTF/GeneralSans-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Extrabold";
+    src: local("Gilroy-Extrabold"), url("./assets/OTF/Gilroy-ExtraBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: local("Gilroy-Light"), url("./assets/OTF/Gilroy-Light.otf") format("truetype");
+}
